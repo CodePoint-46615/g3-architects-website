@@ -7,3 +7,83 @@
   font-style: normal;
 }
 
+/* shared-style */
+.display-flex{
+    display: flex;
+}
+
+.dark-1{
+    color: #131313;
+}
+
+.dark-2{
+    color: #424242;
+}
+
+.hero-bg{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.btn-primary{
+    background-color: #FF900E;
+    color: white;
+    padding: 20px 25px;
+    font-weight: 600;
+    font-size: 1.25rem;
+    border-radius: 8px;
+    border: none;
+}
+
+/* navbar style */
+.navbar{
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.brand{
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 63px;
+}
+
+.nav-link-container{
+
+}
+
+/* banner related design */
+.banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.banner-content{
+    max-width: 862px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner-title{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.banner-description{
+    font-size: 1rem;
+}
+.banner-image{
+    width: 100%;
+    padding-bottom: 45px;
+}
